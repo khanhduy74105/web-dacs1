@@ -34,7 +34,6 @@
     width: 100%;
     background-position: center;
     filter: brightness(50%);
-    transform: translateY(-80px);
 }
 
 .item-title {

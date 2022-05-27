@@ -1,5 +1,6 @@
 /* Tablet - PC low resolution */
 @media (max-width: 1239px) {
+
     .header_nav-list{
         display: none;
     }
@@ -29,6 +30,15 @@
 
 
 @media (max-width: 1023px) {
+    .go-to-top{
+        display: none;
+    }
+    .main-content-right{
+        padding: unset;
+    }
+    .item1>img{
+        height: 100%;
+    }
     .video-shoe{
         margin: unset;
     }
