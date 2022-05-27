@@ -1,0 +1,89 @@
+.noidung {
+    margin-top: 20px;
+    padding: 0 200px 0 200px;
+    color: var(--text-color);
+}
+.banner{
+    margin-top: calc(var(--header-height) + 10px);
+}
+.banner img{
+    width : 100%;
+    height : 100%;
+}
+.noidung img {
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.noidung-header h1 {
+   
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 60px;
+    
+    
+}
+
+.noidung-header .author {
+    font-weight: normal;
+    font-size: 20px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.noidung-header .author-name {
+    width: 50%;
+}
+
+.noidung-header .author-rate {
+    width: 50%;
+    display: flex;
+    place-content: center end;
+    line-height: 60px;
+}
+.noidung-header .author-rate .star {
+    place-content: center end;
+    font-size: 20px;
+    color: rgb(112, 110, 118);   
+}
+.noidung-header .author-rate .contact{
+    margin-left: 10px;
+    place-content: center end;
+    font-size: 40px;
+   
+}
+.noidung-content{
+    font-size:19px;
+    line-height: 40px;
+}
+.noidung-content  ul{
+    margin-left: 50px;
+}
+.mucluc {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 60%;
+    border :1px solid rgb(57, 106, 252);
+    border-radius : 10px;
+    padding : 20px;
+    font-size: 20px;
+    line-height:20px;
+    margin-bottom: 10px;
+}
+.mucluc a{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: block;
+    color: rgb(57, 106, 252);
+    text-decoration: none;
+}
+.breadcrumb {
+    
+    font-size: 12px;
+    margin : 10px 0 20px 0;
+    display: inline-block;
+}
+.breadcrumb a{
+    text-decoration: none;
+    
+}
